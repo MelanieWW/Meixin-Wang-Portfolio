@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Menu, ArrowRight, Globe, Mail, FlaskConical, Cpu, Box, DraftingCompass, Sparkles, RefreshCw } from 'lucide-react';
+import { Menu, ArrowRight, Globe, Mail, FlaskConical, Cpu, Box, DraftingCompass, Sparkles, RefreshCw, Linkedin } from 'lucide-react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('culinary');
@@ -108,11 +108,15 @@ export default function App() {
                 Designed and built an analytics framework enabling systemetic discovery, validation and comparison of new ranking signals; accelerated research cycles by enabling rapid offline evaluation before costly experiments.
               </p>
               <div className="text-neutral-400 leading-relaxed text-sm">
-                <b className="text-neutral-300">Data Engineering Focus</b>: highly scalable data architecture capable of unifying diverse data sources representing different user engagement types while supporting multiple ranking model variants.
+                <b className="text-white font-bold">Data Engineering Focus</b>: highly scalable data architecture capable of unifying diverse data sources representing different user engagement types while supporting multiple ranking model variants.
               </div>
-              <div className="mt-6 flex items-center text-xs tracking-widest text-neutral-500 group-hover:text-white transition-colors uppercase font-bold">
+              <a 
+                href="https://engineering.fb.com/2024/11/19/data-infrastructure/sequence-learning-personalized-ads-recommendations/" 
+                target="_blank"
+                className="mt-6 flex items-center text-xs tracking-widest text-neutral-500 hover:text-white transition-colors uppercase font-bold"
+              >
                 Ads Ranking AI <ArrowRight size={14} className="ml-2" />
-              </div>
+              </a>
             </div>
 
             {/* Project 2 */}
@@ -130,11 +134,15 @@ export default function App() {
                 Built the data foundation for a company-wide insights platform integrating customer feedback through product reviews, social media posts, bug reports, survey repsonses, and more. Built end-to-end evaluation framework and golden test datasets that ensured output quality via sustainable data flywheel.
               </p>
               <div className="text-neutral-400 leading-relaxed text-sm">
-                <b className="text-neutral-300">Data Engineering Focus</b>: productionized LLM-based text processing pipelines transforming raw feedback into semantic embeddings and RAG-style retrieval.
+                <b className="text-white font-bold">Data Engineering Focus</b>: productionized LLM-based text processing pipelines transforming raw feedback into semantic embeddings and RAG-style retrieval.
               </div>
-              <div className="mt-6 flex items-center text-xs tracking-widest text-neutral-500 group-hover:text-white transition-colors uppercase font-bold">
+              <a 
+                href="https://medium.com/@AnalyticsAtMeta/harnessing-the-power-of-customer-feedback-unleashing-metas-llama-4-llms-in-product-analytics-2d3a9cfd5805" 
+                target="_blank"
+                className="mt-6 flex items-center text-xs tracking-widest text-neutral-500 hover:text-white transition-colors uppercase font-bold"
+              >
                 Reality Lab <ArrowRight size={14} className="ml-2" />
-              </div>
+              </a>
             </div>
 
             {/* Project 3 */}
@@ -152,11 +160,15 @@ export default function App() {
                 Led data modeling and telemetry stretagy to support multiple product releases from pre-launch through GA.
               </p>
               <div className="text-neutral-400 leading-relaxed text-sm">
-                <b className="text-neutral-300">Data Engineering Focus</b>: on-device telemetry logging; scalable data solutions and data warehouse environment leveraging ETL tools; adoption, engagement, reliability and developer success metrics; executive-facing experiment analysis that shape product roadmap and partner stretegy.
+                <b className="text-white font-bold">Data Engineering Focus</b>: on-device telemetry logging; scalable data solutions and data warehouse environment leveraging ETL tools; adoption, engagement, reliability and developer success metrics; executive-facing experiment analysis that shape product roadmap and partner stretegy.
               </div>
-              <div className="mt-6 flex items-center text-xs tracking-widest text-neutral-500 group-hover:text-white transition-colors uppercase font-bold">
+              <a 
+                href="https://about.fb.com/news/2023/09/new-ray-ban-meta-smart-glasses/" 
+                target="_blank"
+                className="mt-6 flex items-center text-xs tracking-widest text-neutral-500 hover:text-white transition-colors uppercase font-bold"
+              >
                 Reality Lab <ArrowRight size={14} className="ml-2" />
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -253,7 +265,7 @@ export default function App() {
               </div>
               <div className="mt-8 px-6 hidden md:block">
                 <p className="text-[10px] text-zinc-600 uppercase tracking-widest leading-relaxed">
-                  A collection of conceptual AI experiments stemmed from my personal hobbies
+                  A COLLECTION OF CONCEPTUAL AI EXPERIMENTS STEMMED FROM MY PERSONAL HOBBIES
                 </p>
               </div>
             </aside>
@@ -453,12 +465,25 @@ export default function App() {
           <h2 className="text-6xl md:text-8xl font-bold tracking-tighter text-white mb-12">
             Let's <span className="font-serif italic font-normal">Connect</span>
           </h2>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-            <a href="mailto:mewanxx@gmail.com" className="w-full md:w-auto px-12 py-5 bg-white text-black font-bold text-sm tracking-widest hover:bg-neutral-200 transition-colors uppercase">
-              Get in Touch
-            </a>
-            <a href="https://linkedin.com/in/meixin-wang-43589a114/" target="_blank" className="w-full md:w-auto px-12 py-5 liquid-glass text-white font-bold text-sm tracking-widest hover:bg-white/10 transition-colors uppercase">
-              LinkedIn
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:items-start">
+            <div className="flex flex-col items-center gap-4">
+              <div className="w-[136px] h-[136px] bg-white p-2 rounded-sm shadow-lg overflow-hidden flex items-center justify-center">
+                <img 
+                  alt="QR Code for Resume" 
+                  className="w-full h-full object-contain" 
+                  src="https://lh3.googleusercontent.com/aida/ADBb0uid4xb-NS1IdZ0wC8aSB00-F8iSH3aDfjznsUk3D6zCsV-nbhcn--Y41yxQQFxyZickK5gd_INox8NmpI3xfB8qDjoZmFPdiMSqx0zz3t3Leu6zner4_oCmW0jvsgiO0m0ndP-mpiySQ7GeSbBtMQzj_cbvbnWlQKOPp0dh2oSVKeuwsUMm4LUGVBqJoTSNbukBH466JkFou8LgdrvDwwE7zWE2voPMGdmHwrVucpqP4ovRRef8Y6QH4ZMbAjKr3Vt4yzddw9AS8g" 
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <p className="text-[10px] tracking-[0.2em] uppercase font-bold text-neutral-500">Scan for Resume</p>
+            </div>
+            <a 
+              href="https://linkedin.com/in/meixin-wang-43589a114/" 
+              target="_blank" 
+              className="w-[136px] h-[136px] liquid-glass text-white font-bold text-sm tracking-widest hover:bg-white/10 transition-colors uppercase flex flex-col items-center justify-center gap-2 group"
+            >
+              <Linkedin size={24} />
+              <span>LinkedIn</span>
             </a>
           </div>
         </div>
