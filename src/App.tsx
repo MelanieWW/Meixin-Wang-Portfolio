@@ -494,14 +494,6 @@ export default function App() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 w-full max-w-7xl mx-auto">
           <div className="flex flex-col gap-2 items-center md:items-start">
             <div className="text-lg font-black text-white font-sans">Meixin Wang</div>
-            <p className="font-sans text-[10px] tracking-[0.2em] uppercase text-zinc-600">
-              © 2024 Meixin Wang. Built in the Obsidian Journal aesthetic.
-            </p>
-          </div>
-          <div className="flex gap-8">
-            <a href="https://linkedin.com/in/meixin-wang-43589a114/" className="font-sans text-[10px] tracking-[0.2em] uppercase text-zinc-600 hover:text-white transition-colors duration-300">LinkedIn</a>
-            <a href="https://github.com/MelanieWW" className="font-sans text-[10px] tracking-[0.2em] uppercase text-zinc-600 hover:text-white transition-colors duration-300">GitHub</a>
-            <a href="#" className="font-sans text-[10px] tracking-[0.2em] uppercase text-zinc-600 hover:text-white transition-colors duration-300">ReadCV</a>
           </div>
           <div className="flex gap-6">
             <Globe className="text-neutral-500 cursor-pointer hover:text-white" size={20} />
