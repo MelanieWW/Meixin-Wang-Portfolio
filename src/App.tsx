@@ -471,7 +471,7 @@ export default function App() {
                 <img 
                   alt="QR Code for Resume" 
                   className="w-full h-full object-contain" 
-                  src="/qr-resume.png" 
+                  src="qr-resume.png" 
                 />
               </div>
               <p className="text-[10px] tracking-[0.2em] uppercase font-bold text-neutral-500">Scan for Resume</p>
