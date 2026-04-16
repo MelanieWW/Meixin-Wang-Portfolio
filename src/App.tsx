@@ -471,8 +471,7 @@ export default function App() {
                 <img 
                   alt="QR Code for Resume" 
                   className="w-full h-full object-contain" 
-                  src="https://lh3.googleusercontent.com/aida/ADBb0uid4xb-NS1IdZ0wC8aSB00-F8iSH3aDfjznsUk3D6zCsV-nbhcn--Y41yxQQFxyZickK5gd_INox8NmpI3xfB8qDjoZmFPdiMSqx0zz3t3Leu6zner4_oCmW0jvsgiO0m0ndP-mpiySQ7GeSbBtMQzj_cbvbnWlQKOPp0dh2oSVKeuwsUMm4LUGVBqJoTSNbukBH466JkFou8LgdrvDwwE7zWE2voPMGdmHwrVucpqP4ovRRef8Y6QH4ZMbAjKr3Vt4yzddw9AS8g" 
-                  referrerPolicy="no-referrer"
+                  src="/qr-resume.png" 
                 />
               </div>
               <p className="text-[10px] tracking-[0.2em] uppercase font-bold text-neutral-500">Scan for Resume</p>
