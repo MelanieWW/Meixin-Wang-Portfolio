@@ -99,8 +99,8 @@ export default function App() {
                 <img 
                   className="w-full h-full object-cover opacity-60" 
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqXQ8QZPuPhIHlcxT7vZfuzceE4QN9IPhfbBN8qyeDWvsO5IXxP9sHuPEN2PMl4FI96W3VHpDQrnPhfltma1M7OOJ7VaQK2xtSi0a-X_uQMWSv2px21HP-RtMlb5E7s2CpPdAwZt5CkPUdmAUuFZqkqHC_NN2_oSLz6pEi0JGrnXpY2dl1bBU-h4Aaz4erpA6NIb7omZXEdSy-sPOIZrYc8Fyc60NooTpg6Hf8rj_xHhxta8jfzPesvWqjOWAV-Qoi5q9jJkR6Kzw" 
-                  alt="abstract digital connection network"
                   referrerPolicy="no-referrer"
+                  alt="abstract digital connection network"
                 />
               </div>
               <h3 className="text-2xl font-semibold text-white mb-4">Feature Evaluation Framework</h3>
@@ -125,8 +125,8 @@ export default function App() {
                 <img 
                   className="w-full h-full object-cover opacity-60" 
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWKwnDbuMAD6ujsh1E7RQ3-JOJVkdFiTpXVUQWX8oQaT-lwVRmy5GmD9vGUHEUwgHdx47qyfiNQXYb2QKhgrEfv17WF-P-cG-hszdvKBXq7w9V9AQQpHolsqHFa9dE3KVTYzpbJhcOPa2mXmffaGvzKuioh0M1lLc-ObwQbIuG-uF9a-tO85GWX9qD8GilQWYTMZUKSjW29I13TsR1aSB1dHrfQYCxLfAJPMk2F6c5fzTkdlN3ABC473_EwbxYFzf8lTSr1HQ6eH8" 
-                  alt="futuristic architectural structure"
                   referrerPolicy="no-referrer"
+                  alt="futuristic architectural structure"
                 />
               </div>
               <h3 className="text-2xl font-semibold text-white mb-4">Customer Feedback AI Platform</h3>
@@ -151,8 +151,8 @@ export default function App() {
                 <img 
                   className="w-full h-full object-cover opacity-60" 
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFOlz6cw7oOPnMkPzd3VjQA_THmKEFbTLsUm0DaiEpOo6binMuVSj3ETCM0z3FjK7jxX1LCBfbAswilRvNMY5na_15MUHp69PbtFPKugEWSRPx6EnZw7UYoeGFa3s7kL9lKbXprpw8wV7g09QOApEkPO086HOU6OKSoJ7VcRLsVpkHDRLB_YtRq0BgIz0znerxoW4xACzGB_fUe8llEKrh6rQyUZGEG-ddWg31revXTTnys9H4tnbL3_do_DPX9e7TWxZdB6-DeRE" 
-                  alt="macro close-up of crystal prisms"
                   referrerPolicy="no-referrer"
+                  alt="macro close-up of crystal prisms"
                 />
               </div>
               <h3 className="text-2xl font-semibold text-white mb-4">XR Audio & Graphics</h3>
@@ -302,8 +302,7 @@ export default function App() {
                         <img 
                           alt="Culinary AI App Showcase" 
                           className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-1000" 
-                          src="https://lh3.googleusercontent.com/aida/ADBb0ugjCI3XeUtRX1OH2lATQpwVjKCKcGn1f_7YIF9Vaa7scojxI33AWwnjtcdfd6-woUiBAPk4NCVhQRMbjcMXofOw5G01gdl9v96KORigBglLTsu_H-8viym4TTNGxIhyB6FSPdCTvHwITPN36LrZczhBxXc--Z-mm_7tt-VmRZq_O59fzH8GlwkUq1d42I9kI8dauWVyvNtS8HR35Z9fOTotmLy6fxlXjoDNyYkJl_aMJf4qgod_IoqjYKh3-Ul1K5RpURT50sNtdQ" 
-                          referrerPolicy="no-referrer"
+                          src="culinary-ai.png" 
                         />
                         <div className="absolute bottom-4 right-4 text-[10px] uppercase tracking-widest bg-black/60 backdrop-blur-md px-3 py-1.5 text-white/90 border border-white/10">
                           AI Stylist Interface
@@ -356,16 +355,14 @@ export default function App() {
                           <img 
                             alt="Agentic Craft Example 1" 
                             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-                            src="https://lh3.googleusercontent.com/aida/ADBb0uisOsS6USL7xQtENyF3XZdyqEAx8mnlgGB6tH2vwpQ9b7C07wtnLWyq1beChvc0JfdNs_RKl3rHcr2Lum7ctm7YstSsYjs0crGqoSxEKhg4sthpFSugmSMR_i7g1nDLjCIgH8eEPiMQmueAg3TRAzPZeKrfRBWtNxo_4Jf9Mumthpo8TWX0rBaR0Oux__rfYwO4KGBHfBOxD_NWA-pzCHfl3F0vpWXxZjOjbfICVg7hSYhgxzvspUp0nM5HuMOgswGx8FcKLdqZqw" 
-                            referrerPolicy="no-referrer"
+                            src="craft-lamp-blue.png" 
                           />
                         </div>
                         <div className="bg-neutral-900 overflow-hidden">
                           <img 
                             alt="Agentic Craft Example 2" 
                             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-                            src="https://lh3.googleusercontent.com/aida/ADBb0uibtZ5dkSdWpk9tYVEmzVQENde9NMJnp-POX1j78zJ7TSZqoCk50J7xwfu_8fIFxQhoWuDgMIVVT84zrLvXLbkfqQ73rboNrElKV5JPsWfKYcs6pNIefrGTMCp-pM7QGlP3gMx_w8qLFLSY4YZLp-tRNu-vNb7Unzt3YNRSlnqCq9eCDboD3fOCq2PYVs2fH8FznZz1-WAxvAEStdXj8TdEktbC-V771Ku-jUF_r9bP5I5YP6DekioTomE9MX4PCa9TQA53OTC3Kw" 
-                            referrerPolicy="no-referrer"
+                            src="craft-lamp-white.png" 
                           />
                         </div>
                       </div>
@@ -400,8 +397,7 @@ export default function App() {
                                   <img 
                                     alt="Original Tower" 
                                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-                                    src="https://lh3.googleusercontent.com/aida/ADBb0ugRf1EbuVNo-5gfD9hi2NcPY0rlx1R6SJ52tXAmcjv-ilEicylIJwebsOjfDPXTUGsE0QO-hTdAge9m0aB5PL5LVuL68XxQbg0b3I3iVL2kmIdvHlNgL-F567Xf5gCLLguRn_XctVEqy06kwCQlPxJD4cm1xk626uEix3zJOujxhUHEOv8plwvIbECQXBZV_V5tAQRU2oOYqF64cAm94yy-u6VNUHFW7pWc_Cbz8xFFoY3isltvn0PI8hm4pJb0ak9RgmgA7avQyA" 
-                                    referrerPolicy="no-referrer"
+                                    src="tower-original.jpeg" 
                                   />
                                 </div>
                                 <span className="block text-[9px] uppercase tracking-tighter text-zinc-600 text-center">Original Tower</span>
@@ -411,8 +407,7 @@ export default function App() {
                                   <img 
                                     alt="3D Model" 
                                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-                                    src="https://lh3.googleusercontent.com/aida/ADBb0ugl8G5coi0QkVtT1jbEeFjt8M3wqJgJCLs7iBgP38JzZleHFnzwTcUfjJAK3EWt3scw3527bZJ27swpcXmXvFP9_12g5S_qI1FNgNk7Ye1VHcv7C4cDqv328hD1OqLhRsgqUX0tdB3NgklLYJ0K21QO6KVO9MWnQc1cBDyTCWoQNv1RpquGLYt0XXuuRQcjRv00NmTGgmcQW8BmEgS5BZvvfMfEUK3VnwCIT_waIsHWUxOsqcUQODBuA89YNrZN_NfYGQ" 
-                                    referrerPolicy="no-referrer"
+                                    src="tower-3d-cad.png" 
                                   />
                                 </div>
                                 <span className="block text-[9px] uppercase tracking-tighter text-zinc-600 text-center">AI-Assisted CAD</span>
@@ -422,8 +417,7 @@ export default function App() {
                                   <img 
                                     alt="Final Product" 
                                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-                                    src="https://lh3.googleusercontent.com/aida/ADBb0uhWIbr2Cfo6xs5mwl90_rn-WAvj77F5XzOJEXw_v4iq_OJyueN1A1S0AThYw6MLra_GTOBsQlYnc_I40aAf0xI1YvkQgG0CP5ASJT2PC-ff5hJ9WzPo2tBJvwLNUDMCCtGcDIVvAx9STObFgg7w8McVSUOoZqDenPb1TYjU3ESP9lZQl2SUYzfFEGAIQxU8rJ3m7uPqLWwRUCFM5YUpDt39aINvvrMv39ihUgWxCR8Nf2rtqHiAsDJ_bLlRG5UPqSgfubYK2xzhzw" 
-                                    referrerPolicy="no-referrer"
+                                    src="tower-cookie.png" 
                                   />
                                 </div>
                                 <span className="block text-[9px] uppercase tracking-tighter text-zinc-600 text-center">Final Cookie</span>
@@ -436,8 +430,7 @@ export default function App() {
                         <img 
                           alt="Sagrada Familia Cookie Showcase" 
                           className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-[1.03] transition-all duration-1000" 
-                          src="https://lh3.googleusercontent.com/aida/ADBb0uhWIbr2Cfo6xs5mwl90_rn-WAvj77F5XzOJEXw_v4iq_OJyueN1A1S0AThYw6MLra_GTOBsQlYnc_I40aAf0xI1YvkQgG0CP5ASJT2PC-ff5hJ9WzPo2tBJvwLNUDMCCtGcDIVvAx9STObFgg7w8McVSUOoZqDenPb1TYjU3ESP9lZQl2SUYzfFEGAIQxU8rJ3m7uPqLWwRUCFM5YUpDt39aINvvrMv39ihUgWxCR8Nf2rtqHiAsDJ_bLlRG5UPqSgfubYK2xzhzw" 
-                          referrerPolicy="no-referrer"
+                          src="tower-cookie.png" 
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60"></div>
                       </div>
@@ -471,7 +464,7 @@ export default function App() {
                 <img 
                   alt="QR Code for Resume" 
                   className="w-full h-full object-contain" 
-                  src="qr-resume.png" 
+                  src="qr-resume.jpg" 
                 />
               </div>
               <p className="text-[10px] tracking-[0.2em] uppercase font-bold text-neutral-500">Scan for Resume</p>
