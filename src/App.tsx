@@ -2,6 +2,14 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, ArrowRight, Globe, Mail, FlaskConical, Cpu, Box, DraftingCompass, Sparkles, RefreshCw, Linkedin } from 'lucide-react';
 
+import culinaryAi from './assets/culinary-ai.png';
+import craftLampBlue from './assets/craft-lamp-blue.png';
+import craftLampWhite from './assets/craft-lamp-white.png';
+import towerOriginal from './assets/tower-original.jpeg';
+import tower3dCad from './assets/tower-3d-cad.png';
+import towerCookie from './assets/tower-cookie.png';
+import qrResume from './assets/qr-resume.jpg';
+
 export default function App() {
   const [activeTab, setActiveTab] = useState('culinary');
 
@@ -302,7 +310,7 @@ export default function App() {
                         <img 
                           alt="Culinary AI App Showcase" 
                           className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-1000" 
-                          src="/culinary-ai.png" 
+                          src={culinaryAi} 
                         />
                         <div className="absolute bottom-4 right-4 text-[10px] uppercase tracking-widest bg-black/60 backdrop-blur-md px-3 py-1.5 text-white/90 border border-white/10">
                           AI Stylist Interface
@@ -355,14 +363,14 @@ export default function App() {
                           <img 
                             alt="Agentic Craft Example 1" 
                             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-                            src="/craft-lamp-blue.png" 
+                            src={craftLampBlue} 
                           />
                         </div>
                         <div className="bg-neutral-900 overflow-hidden">
                           <img 
                             alt="Agentic Craft Example 2" 
                             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-                            src="/craft-lamp-white.png" 
+                            src={craftLampWhite} 
                           />
                         </div>
                       </div>
@@ -397,7 +405,7 @@ export default function App() {
                                   <img 
                                     alt="Original Tower" 
                                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-                                    src="/tower-original.jpeg" 
+                                    src={towerOriginal} 
                                   />
                                 </div>
                                 <span className="block text-[9px] uppercase tracking-tighter text-zinc-600 text-center">Original Tower</span>
@@ -407,7 +415,7 @@ export default function App() {
                                   <img 
                                     alt="3D Model" 
                                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-                                    src="/tower-3d-cad.png" 
+                                    src={tower3dCad} 
                                   />
                                 </div>
                                 <span className="block text-[9px] uppercase tracking-tighter text-zinc-600 text-center">AI-Assisted CAD</span>
@@ -417,7 +425,7 @@ export default function App() {
                                   <img 
                                     alt="Final Product" 
                                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-                                    src="/tower-cookie.png" 
+                                    src={towerCookie} 
                                   />
                                 </div>
                                 <span className="block text-[9px] uppercase tracking-tighter text-zinc-600 text-center">Final Cookie</span>
@@ -430,7 +438,7 @@ export default function App() {
                         <img 
                           alt="Sagrada Familia Cookie Showcase" 
                           className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-[1.03] transition-all duration-1000" 
-                          src="/tower-cookie.png" 
+                          src={towerCookie} 
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60"></div>
                       </div>
@@ -464,7 +472,7 @@ export default function App() {
                 <img 
                   alt="QR Code for Resume" 
                   className="w-full h-full object-contain" 
-                  src="/qr-resume.jpg" 
+                  src={qrResume} 
                 />
               </div>
               <p className="text-[10px] tracking-[0.2em] uppercase font-bold text-neutral-500">Scan for Resume</p>
