@@ -6,3 +6,14 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Ensure public assets and images are not ignored
+!public/
+!*.png
+!*.jpg
+!*.jpeg
+!*.svg
+!*.gif
+!*.webp
+!*.ico
+!*.mp4
